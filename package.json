@@ -1,0 +1,19 @@
+{
+  "name": "Web-calendar-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DKilka/Web-calendar-backend.git",
+  "author": "Nikolas Dushenko <taurossilvers@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "4.21.2",
+    "pg": "8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.9"
+  }
+}
